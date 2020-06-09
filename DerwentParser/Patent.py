@@ -1,0 +1,19 @@
+class Patent:
+    def __init__(self, Title="",
+        PatentNumber="",
+        nationality=[],
+        ipcs=[],
+        authors=[],
+        PatentAsignee=[],
+        publishDate="",
+        language="",
+        pages=0):
+        self.Title=Title
+        self.PatentNumber=PatentNumber
+        self.nationality=nationality
+        self.ipcTOP3=ipcs
+        self.authors=authors
+        self.PatentAsignee=PatentAsignee
+        self.publishDate=publishDate
+        self.language=language
+        self.pages=pages

@@ -1,0 +1,16 @@
+from DerwentParser import derwentParser
+
+import os
+if __name__ == '__main__':
+
+
+    derwentDataDir = r"C:\Users\89277\Desktop\NCP_data"
+    # derwentDataDir = r"C:\Users\89277\Desktop\Derwent_tech_data"
+    # derwentDataDir = r"C:\Users\89277\Desktop\机械原始专利数据"
+
+    # derwentDataDir = r"C:\Users\89277\Desktop\NCP_data\Coronaviru"
+    outputDataDir=r'output'
+
+
+
+    derwentParser.ParserToCSV(derwentDataDir,outputDataDir)
